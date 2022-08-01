@@ -202,7 +202,7 @@ body:after {
 .SiteList .site.working { background: transparent url(../img/loading-circle.gif) no-repeat 22px; -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -o-backface-visibility: hidden; -ms-backface-visibility: hidden; backface-visibility: hidden ; }
 .SiteList .site .message.done { background-color: #26c281 }
 .SiteList .site .message.error { background-color: #3C364F; color: #D5D4D9; }
-.SiteList .site .message.visible { padding: 5px 10px; opacity: 1; max-width: 140px; -webkit-box-shadow: 7px 0px 15px #2F2A3F; -moz-box-shadow: 7px 0px 15px #2F2A3F; -o-box-shadow: 7px 0px 15px #2F2A3F; -ms-box-shadow: 7px 0px 15px #2F2A3F; box-shadow: 7px 0px 15px #2F2A3F ; }
+.SiteList .site .message.visible { padding: 5px 10px; opacity: 1; max-width: 160px; -webkit-box-shadow: 7px 0px 15px #2F2A3F; -moz-box-shadow: 7px 0px 15px #2F2A3F; -o-box-shadow: 7px 0px 15px #2F2A3F; -ms-box-shadow: 7px 0px 15px #2F2A3F; box-shadow: 7px 0px 15px #2F2A3F ; }
 .SiteList .site:not(:hover) .message.collapsed { background-color: transparent; color: transparent; max-width: 15px; -webkit-box-shadow: none ; -moz-box-shadow: none ; -o-box-shadow: none ; -ms-box-shadow: none ; box-shadow: none  }
 .SiteList .site .message.collapsed:before {
 	content: "\01F514"; display: block; color: #99A0AF; margin-top: -2px; margin-left: -3px; position: absolute;
@@ -611,7 +611,7 @@ body:after {
 #Dashboard .dashboard-item.donate:hover .icon-heart:before, #Dashboard .dashboard-item.donate:hover .icon-heart:after { background-color: #FA6C8D }
 #Dashboard .warnings { color: #e91e63 }
 #Dashboard .menu-warnings { white-space: normal; max-width: 300px; }
-#Dashboard .tracker-status { text-align: right; width: 600px; display: inline-block; float: right; margin-top: -20px }
+#Dashboard .tracker-status { text-align: right; width: 450px; display: inline-block; float: right; margin-top: -20px }
 #Dashboard .menu-port { white-space: normal; max-width: 500px; }
 
 #Dashboard .menu .status {

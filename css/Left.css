@@ -79,7 +79,7 @@ body:after {
 .SiteList .site.working { background: transparent url(../img/loading-circle.gif) no-repeat 22px; backface-visibility: hidden; }
 .SiteList .site .message.done { background-color: #26c281 }
 .SiteList .site .message.error { background-color: #3C364F; color: #D5D4D9; }
-.SiteList .site .message.visible { padding: 5px 10px; opacity: 1; max-width: 140px; box-shadow: 7px 0px 15px #2F2A3F; }
+.SiteList .site .message.visible { padding: 5px 10px; opacity: 1; max-width: 160px; box-shadow: 7px 0px 15px #2F2A3F; }
 .SiteList .site:not(:hover) .message.collapsed { background-color: transparent; color: transparent; max-width: 15px; box-shadow: none }
 .SiteList .site .message.collapsed:before {
 	content: "\01F514"; display: block; color: #99A0AF; margin-top: -2px; margin-left: -3px; position: absolute;

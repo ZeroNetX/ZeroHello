@@ -68,12 +68,12 @@ class SiteList extends Class
 
 	updateInactiveDemoSites: ->
 		demo_site_rows = [
-			{address: "1TaLkFrMwvbNsooF4ioKAY9EuxTBTjipT", demo: true, content: {title: "ZeroTalk", domain: "Talk.ZeroNetwork.bit"}, settings: {}}
-			{address: "1BLogC9LN4oPDcruNz3qo1ysa133E9AGg8", demo: true, content: {title: "ZeroBlog", domain: "Blog.ZeroNetwork.bit"}, settings: {}}
-			{address: "1MaiL5gfBM1cyb4a8e3iiL8L5gXmoAJu27", demo: true, content: {title: "ZeroMail", domain: "Mail.ZeroNetwork.bit"}, settings: {}}
-			{address: "1uPLoaDwKzP6MCGoVzw48r4pxawRBdmQc", demo: true, content: {title: "ZeroUp"}, settings: {}}
+			{address: "15UYrA7aXr2Nto1Gg4yWXpY3EAJwafMTNk", demo: true, content: {title: "ThreadIt", domain: "Talk.ZeroNetX.bit"}, settings: {}}
+			{address: "1SCribeHs1nz8m3vXipP84oyXUy4nf2ZD", demo: true, content: {title: "Scribe", domain: "Blog.ZeroNetX.bit"}, settings: {}}
+			{address: "1MaiLX6j5MSddyu8oh5CxxGrhMcSmRo6N8", demo: true, content: {title: "ZeroMailX", domain: "Mail.ZeroNetX.bit"}, settings: {}}
+			{address: "1UPLoADsqDWzMEyqLNin8GPcWoqiihu1g", demo: true, content: {title: "StorAge"}, settings: {}}
 			{address: "1Gif7PqWTzVWDQ42Mo7np3zXmGAo3DXc7h", demo: true, content: {title: "GIF Time"}, settings: {}}
-			{address: "1SiTEs2D3rCBxeMoLHXei2UYqFcxctdwB", demo: true, content: {title: "More @ ZeroSites", domain: "Sites.ZeroNetwork.bit"}, settings: {}}
+			{address: "1SitesVCdgNfHojzf2aGKQrD4dteAZR1k", demo: true, content: {title: "More @ ZeroSitesX", domain: "Sites.ZeroNetX.bit"}, settings: {}}
 		]
 		if Page.server_info.rev >= 1400
 			demo_site_rows.push {address: "1MeFqFfFFGQfa1J3gJyYYUvb5Lksczq7nH", demo: true, content: {title: "ZeroMe", domain: "Me.ZeroNetwork.bit"}, settings: {}}

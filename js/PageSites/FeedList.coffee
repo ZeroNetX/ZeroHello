@@ -330,23 +330,23 @@ class FeedList extends Class
 	renderWelcome: =>
 		h("div.welcome", [
 			h("img", {src: "img/logo.svg", height: 150, onerror: "this.src='img/logo.png'; this.onerror=null;"})
-			h("h1", "Welcome to ZeroNet")
+			h("h1", "Welcome to ZeroNetX")
 			h("h2", "Let's build a decentralized Internet together!")
 			h("div.served", ["This site currently served by ", h("b.peers", (Page.site_info["peers"] or "n/a")), " peers, without any central server."])
 			h("div.sites", [
 				h("h3", "Some sites we created:"),
-				h("a.site.site-zerotalk", {href: Text.getSiteUrl("Talk.ZeroNetwork.bit")}, [
-					h("div.title", ["ZeroTalk"])
+				h("a.site.site-zerotalk", {href: Text.getSiteUrl("Talk.ZeroNetX.bit")}, [
+					h("div.title", ["ThreadIt"])
 					h("div.description", ["Reddit-like, decentralized forum"])
 					h("div.visit", ["Activate \u2501"])
 				]),
-				h("a.site.site-zeroblog", {href: Text.getSiteUrl("Blog.ZeroNetwork.bit")}, [
-					h("div.title", ["ZeroBlog"])
+				h("a.site.site-zeroblog", {href: Text.getSiteUrl("Blog.ZeroNetX.bit")}, [
+					h("div.title", ["Scribe"])
 					h("div.description", ["Microblogging platform"])
 					h("div.visit", ["Activate \u2501"])
 				]),
-				h("a.site.site-zeromail", {href: Text.getSiteUrl("Mail.ZeroNetwork.bit")}, [
-					h("div.title", ["ZeroMail"])
+				h("a.site.site-zeromail", {href: Text.getSiteUrl("Mail.ZeroNetX.bit")}, [
+					h("div.title", ["ZeroMailX"])
 					h("div.description", ["End-to-end encrypted mailing"])
 					h("div.visit", ["Activate \u2501"])
 				]),
@@ -355,8 +355,8 @@ class FeedList extends Class
 					h("div.description", ["P2P social network"])
 					h("div.visit", ["Activate \u2501"])
 				]),
-				h("a.site.site-zerosites", {href: Text.getSiteUrl("Sites.ZeroNetwork.bit")}, [
-					h("div.title", ["ZeroSites"])
+				h("a.site.site-zerosites", {href: Text.getSiteUrl("Sites.ZeroNetX.bit")}, [
+					h("div.title", ["ZeroSitesX"])
 					h("div.description", ["Discover more sites"])
 					h("div.visit", ["Activate \u2501"])
 				])

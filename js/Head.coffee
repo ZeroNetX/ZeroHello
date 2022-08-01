@@ -120,6 +120,8 @@ class Head extends Class
 			@menu_settings.items.push [[h("div.icon-gear.emoji", "\u2699\uFE0E"), "Configuration"], "/Config"]
 		if Page.server_info.plugins.indexOf("UiPluginManager") >= 0
 			@menu_settings.items.push [[h("div.icon-gear.emoji", "\u2B21"), "Plugins"], "/Plugins"]
+		if Page.server_info.plugins.indexOf("Stats") >= 0
+			@menu_settings.items.push [[h("div.icon-gear.emoji", "\u2B21"), "Stats"], "/Stats"]
 		@menu_settings.items.push ["---"]
 		if not Page.server_info.multiuser or Page.server_info.multiuser_admin
 			@menu_settings.items.push ["Show data directory", @handleBackupClick]
@@ -179,7 +181,7 @@ class Head extends Class
 			@menu_settings.render()
 			h("a.logo", {href: "?Home"}, [
 				h("img", {src: 'img/logo.svg', width: 40, height: 40, onerror: "this.src='img/logo.png'; this.onerror=null;"}),
-				h("span", ["Hello ZeroNet_"])
+				h("span", ["ZeroNetX Dashboard"])
 			]),
 			h("div.modes", [
 				h("a.mode.sites", {href: "?", classes: {active: Page.mode == "Sites"}, onclick: Page.handleLinkClick}, _("Sites"))
