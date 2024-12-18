@@ -1484,14 +1484,14 @@
         }
       }, [
         "Selected:", h("span.info", [h("span.num", this.selected_files_num + " files"), h("span.size", "(" + (Text.formatSize(this.selected_files_size)) + ")")]), h("div.actions", [
-          this.selected_files_pinned > this.selected_files_num / 2 ? h("a.action.pin.unpin", {
-            href: "#",
-            onclick: this.handleSelectbarUnpin
-          }, "UnPin") : h("a.action.pin", {
+          h("a.action.pin", {
             href: "#",
             title: "Don't delete these files automatically",
             onclick: this.handleSelectbarPin
-          }, "Pin"), h("a.action.delete", {
+          }, "Pin"), h("a.action.pin.unpin", {
+            href: "#",
+            onclick: this.handleSelectbarUnpin
+          }, "UnPin"), h("a.action.delete", {
             href: "#",
             onclick: this.handleSelectbarDelete
           }, "Delete")

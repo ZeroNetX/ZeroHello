@@ -197,10 +197,8 @@ class PageFiles extends Class
 				h("span.size", "(#{Text.formatSize(@selected_files_size)})"),
 			])
 			h("div.actions", [
-				if @selected_files_pinned > @selected_files_num / 2
-					h("a.action.pin.unpin", {href: "#", onclick: @handleSelectbarUnpin}, "UnPin")
-				else
-					h("a.action.pin", {href: "#", title: "Don't delete these files automatically", onclick: @handleSelectbarPin}, "Pin")
+				h("a.action.pin", {href: "#", title: "Don't delete these files automatically", onclick: @handleSelectbarPin}, "Pin")
+				h("a.action.pin.unpin", {href: "#", onclick: @handleSelectbarUnpin}, "UnPin")
 				h("a.action.delete", {href: "#", onclick: @handleSelectbarDelete}, "Delete")
 			])
 			h("a.cancel.link", {href: "#", onclick: @handleSelectbarCancel}, "Cancel")
